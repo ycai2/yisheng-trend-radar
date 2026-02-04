@@ -102,10 +102,418 @@ rss:
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
 
-    - id: "custom-rss"
-      name: "kfc"
+    # Food & Beverage - Quick Service Restaurants
+    - id: "yum-china-rss"
+      name: "百胜中国"
+      url: "https://www.bing.com/news/search?q=百胜中国&format=RSS"
+      max_age_days: 10
+
+    - id: "kfc-rss"
+      name: "肯德基"
       url: "https://www.bing.com/news/search?q=肯德基&format=RSS"
       max_age_days: 10
+    
+    - id: "kfc-en-rss"
+      name: "KFC"
+      url: "https://www.bing.com/news/search?q=KFC&format=RSS"
+      max_age_days: 10
+    
+    - id: "pizza-hut-rss"
+      name: "必胜客"
+      url: "https://www.bing.com/news/search?q=必胜客&format=RSS"
+      max_age_days: 10
+    
+    - id: "haidilao-rss"
+      name: "海底捞"
+      url: "https://www.bing.com/news/search?q=海底捞&format=RSS"
+      max_age_days: 10
+    
+    - id: "xiabuxiabu-rss"
+      name: "呷哺呷哺"
+      url: "https://www.bing.com/news/search?q=呷哺呷哺&format=RSS"
+      max_age_days: 10
+    
+    - id: "wallace-rss"
+      name: "华莱士"
+      url: "https://www.bing.com/news/search?q=华莱士&format=RSS"
+      max_age_days: 10
+    
+    - id: "tasting-rss"
+      name: "塔斯汀"
+      url: "https://www.bing.com/news/search?q=塔斯汀&format=RSS"
+      max_age_days: 10
+    
+    - id: "zxjp-rss"
+      name: "正新鸡排"
+      url: "https://www.bing.com/news/search?q=正新鸡排&format=RSS"
+      max_age_days: 10
+    
+    - id: "lxj-rss"
+      name: "老乡鸡"
+      url: "https://www.bing.com/news/search?q=老乡鸡&format=RSS"
+      max_age_days: 10
+    
+    - id: "kungfu-rss"
+      name: "真功夫"
+      url: "https://www.bing.com/news/search?q=真功夫&format=RSS"
+      max_age_days: 10
+    
+    - id: "xibei-rss"
+      name: "西贝莜面村"
+      url: "https://www.bing.com/news/search?q=西贝莜面村&format=RSS"
+      max_age_days: 10
+    
+    # Food & Beverage - Drinks & Desserts
+    - id: "mixue-rss"
+      name: "蜜雪冰城"
+      url: "https://www.bing.com/news/search?q=蜜雪冰城&format=RSS"
+      max_age_days: 10
+    
+    - id: "luckin-rss"
+      name: "瑞幸咖啡"
+      url: "https://www.bing.com/news/search?q=瑞幸咖啡&format=RSS"
+      max_age_days: 10
+    
+    - id: "heytea-rss"
+      name: "喜茶"
+      url: "https://www.bing.com/news/search?q=喜茶&format=RSS"
+      max_age_days: 10
+    
+    # Food & Beverage - Restaurant Groups
+    - id: "jiuhaojiu-rss"
+      name: "九毛九"
+      url: "https://www.bing.com/news/search?q=九毛九&format=RSS"
+      max_age_days: 10
+    
+    - id: "taier-rss"
+      name: "太二"
+      url: "https://www.bing.com/news/search?q=太二&format=RSS"
+      max_age_days: 10
+    
+    # Apparel - Casual Wear
+    - id: "heilan-rss"
+      name: "海澜之家"
+      url: "https://www.bing.com/news/search?q=海澜之家&format=RSS"
+      max_age_days: 10
+    
+    - id: "semir-rss"
+      name: "森马"
+      url: "https://www.bing.com/news/search?q=森马&format=RSS"
+      max_age_days: 10
+    
+    - id: "meters-rss"
+      name: "美特斯邦威"
+      url: "https://www.bing.com/news/search?q=美特斯邦威&format=RSS"
+      max_age_days: 10
+    
+    - id: "bosideng-rss"
+      name: "波司登"
+      url: "https://www.bing.com/news/search?q=波司登&format=RSS"
+      max_age_days: 10
+    
+    # Sportswear - Chinese Brands
+    - id: "lining-rss"
+      name: "李宁"
+      url: "https://www.bing.com/news/search?q=李宁&format=RSS"
+      max_age_days: 10
+    
+    - id: "anta-rss"
+      name: "安踏"
+      url: "https://www.bing.com/news/search?q=安踏&format=RSS"
+      max_age_days: 10
+    
+    - id: "xtep-rss"
+      name: "特步"
+      url: "https://www.bing.com/news/search?q=特步&format=RSS"
+      max_age_days: 10
+    
+    - id: "361-rss"
+      name: "361度"
+      url: "https://www.bing.com/news/search?q=361度&format=RSS"
+      max_age_days: 10
+    
+    - id: "peak-rss"
+      name: "匹克"
+      url: "https://www.bing.com/news/search?q=匹克&format=RSS"
+      max_age_days: 10
+    
+    - id: "erke-rss"
+      name: "鸿星尔克"
+      url: "https://www.bing.com/news/search?q=鸿星尔克&format=RSS"
+      max_age_days: 10
+    
+    - id: "qiaodan-rss"
+      name: "乔丹"
+      url: "https://www.bing.com/news/search?q=乔丹&format=RSS"
+      max_age_days: 10
+    
+    - id: "guiren-rss"
+      name: "贵人鸟"
+      url: "https://www.bing.com/news/search?q=贵人鸟&format=RSS"
+      max_age_days: 10
+    
+    - id: "huili-rss"
+      name: "回力"
+      url: "https://www.bing.com/news/search?q=回力&format=RSS"
+      max_age_days: 10
+    
+    - id: "doublestar-rss"
+      name: "双星"
+      url: "https://www.bing.com/news/search?q=双星&format=RSS"
+      max_age_days: 10
+    
+    # Sportswear - International Brands
+    - id: "nike-rss"
+      name: "耐克"
+      url: "https://www.bing.com/news/search?q=耐克&format=RSS"
+      max_age_days: 10
+    
+    - id: "fila-cn-rss"
+      name: "斐乐"
+      url: "https://www.bing.com/news/search?q=斐乐&format=RSS"
+      max_age_days: 10
+    
+    - id: "fila-rss"
+      name: "FILA"
+      url: "https://www.bing.com/news/search?q=FILA&format=RSS"
+      max_age_days: 10
+    
+    - id: "descente-rss"
+      name: "迪桑特"
+      url: "https://www.bing.com/news/search?q=迪桑特&format=RSS"
+      max_age_days: 10
+    
+    - id: "kolon-rss"
+      name: "可隆"
+      url: "https://www.bing.com/news/search?q=可隆&format=RSS"
+      max_age_days: 10
+    
+    - id: "arcteryx-rss"
+      name: "始祖鸟"
+      url: "https://www.bing.com/news/search?q=始祖鸟&format=RSS"
+      max_age_days: 10
+    
+    - id: "salomon-rss"
+      name: "萨洛蒙"
+      url: "https://www.bing.com/news/search?q=萨洛蒙&format=RSS"
+      max_age_days: 10
+    
+    - id: "wilson-rss"
+      name: "威尔胜"
+      url: "https://www.bing.com/news/search?q=威尔胜&format=RSS"
+      max_age_days: 10
+    
+    # Sportswear - Kids Lines
+    - id: "anta-kids-rss"
+      name: "安踏儿童"
+      url: "https://www.bing.com/news/search?q=安踏儿童&format=RSS"
+      max_age_days: 10
+    
+    - id: "lining-young-rss"
+      name: "李宁young"
+      url: "https://www.bing.com/news/search?q=李宁young&format=RSS"
+      max_age_days: 10
+    
+    - id: "xtep-kids-rss"
+      name: "特步儿童"
+      url: "https://www.bing.com/news/search?q=特步儿童&format=RSS"
+      max_age_days: 10
+    
+    # Internet - E-commerce
+    - id: "taobao-rss"
+      name: "淘宝"
+      url: "https://www.bing.com/news/search?q=淘宝&format=RSS"
+      max_age_days: 10
+    
+    - id: "tmall-rss"
+      name: "天猫"
+      url: "https://www.bing.com/news/search?q=天猫&format=RSS"
+      max_age_days: 10
+    
+    - id: "jd-rss"
+      name: "京东"
+      url: "https://www.bing.com/news/search?q=京东&format=RSS"
+      max_age_days: 10
+    
+    - id: "pinduoduo-rss"
+      name: "拼多多"
+      url: "https://www.bing.com/news/search?q=拼多多&format=RSS"
+      max_age_days: 10
+    
+    - id: "vipshop-rss"
+      name: "唯品会"
+      url: "https://www.bing.com/news/search?q=唯品会&format=RSS"
+      max_age_days: 10
+    
+    - id: "dewu-rss"
+      name: "得物"
+      url: "https://www.bing.com/news/search?q=得物&format=RSS"
+      max_age_days: 10
+    
+    # Internet - Social & Content
+    - id: "douyin-rss"
+      name: "抖音"
+      url: "https://www.bing.com/news/search?q=抖音&format=RSS"
+      max_age_days: 10
+    
+    - id: "kuaishou-rss"
+      name: "快手"
+      url: "https://www.bing.com/news/search?q=快手&format=RSS"
+      max_age_days: 10
+    
+    - id: "xiaohongshu-rss"
+      name: "小红书"
+      url: "https://www.bing.com/news/search?q=小红书&format=RSS"
+      max_age_days: 10
+    
+    # Internet - Music
+    - id: "qqmusic-rss"
+      name: "QQ音乐"
+      url: "https://www.bing.com/news/search?q=QQ音乐&format=RSS"
+      max_age_days: 10
+    
+    - id: "cloudmusic-rss"
+      name: "云音乐"
+      url: "https://www.bing.com/news/search?q=云音乐&format=RSS"
+      max_age_days: 10
+    
+    # Gaming - Companies
+    - id: "tencent-games-rss"
+      name: "腾讯游戏"
+      url: "https://www.bing.com/news/search?q=腾讯游戏&format=RSS"
+      max_age_days: 10
+    
+    - id: "netease-games-rss"
+      name: "网易游戏"
+      url: "https://www.bing.com/news/search?q=网易游戏&format=RSS"
+      max_age_days: 10
+    
+    - id: "mihoyo-rss"
+      name: "米哈游"
+      url: "https://www.bing.com/news/search?q=米哈游&format=RSS"
+      max_age_days: 10
+    
+    - id: "lilith-rss"
+      name: "莉莉丝"
+      url: "https://www.bing.com/news/search?q=莉莉丝&format=RSS"
+      max_age_days: 10
+    
+    - id: "papergames-rss"
+      name: "叠纸游戏"
+      url: "https://www.bing.com/news/search?q=叠纸游戏&format=RSS"
+      max_age_days: 10
+    
+    - id: "hypergryph-rss"
+      name: "鹰角网络"
+      url: "https://www.bing.com/news/search?q=鹰角网络&format=RSS"
+      max_age_days: 10
+    
+    - id: "xd-rss"
+      name: "心动网络"
+      url: "https://www.bing.com/news/search?q=心动网络&format=RSS"
+      max_age_days: 10
+    
+    - id: "perfect-world-rss"
+      name: "完美世界"
+      url: "https://www.bing.com/news/search?q=完美世界&format=RSS"
+      max_age_days: 10
+    
+    - id: "37games-rss"
+      name: "三七互娱"
+      url: "https://www.bing.com/news/search?q=三七互娱&format=RSS"
+      max_age_days: 10
+    
+    - id: "shengtian-rss"
+      name: "世纪华通"
+      url: "https://www.bing.com/news/search?q=世纪华通&format=RSS"
+      max_age_days: 10
+    
+    # Gaming - Popular Games
+    - id: "honor-of-kings-rss"
+      name: "王者荣耀"
+      url: "https://www.bing.com/news/search?q=王者荣耀&format=RSS"
+      max_age_days: 10
+    
+    - id: "pubg-mobile-rss"
+      name: "和平精英"
+      url: "https://www.bing.com/news/search?q=和平精英&format=RSS"
+      max_age_days: 10
+    
+    - id: "genshin-rss"
+      name: "原神"
+      url: "https://www.bing.com/news/search?q=原神&format=RSS"
+      max_age_days: 10
+    
+    - id: "lol-rss"
+      name: "英雄联盟"
+      url: "https://www.bing.com/news/search?q=英雄联盟&format=RSS"
+      max_age_days: 10
+    
+    - id: "fantasy-westward-rss"
+      name: "梦幻西游"
+      url: "https://www.bing.com/news/search?q=梦幻西游&format=RSS"
+      max_age_days: 10
+    
+    - id: "onmyoji-rss"
+      name: "阴阳师"
+      url: "https://www.bing.com/news/search?q=阴阳师&format=RSS"
+      max_age_days: 10
+    
+    - id: "eggy-party-rss"
+      name: "蛋仔派对"
+      url: "https://www.bing.com/news/search?q=蛋仔派对&format=RSS"
+      max_age_days: 10
+    
+    - id: "identity-v-rss"
+      name: "第五人格"
+      url: "https://www.bing.com/news/search?q=第五人格&format=RSS"
+      max_age_days: 10
+    
+    - id: "arknights-rss"
+      name: "明日方舟"
+      url: "https://www.bing.com/news/search?q=明日方舟&format=RSS"
+      max_age_days: 10
+    
+    - id: "teamfight-tactics-rss"
+      name: "金铲铲之战"
+      url: "https://www.bing.com/news/search?q=金铲铲之战&format=RSS"
+      max_age_days: 10
+    
+    - id: "justice-rss"
+      name: "逆水寒"
+      url: "https://www.bing.com/news/search?q=逆水寒&format=RSS"
+      max_age_days: 10
+    
+    - id: "naruto-mobile-rss"
+      name: "火影忍者手游"
+      url: "https://www.bing.com/news/search?q=火影忍者手游&format=RSS"
+      max_age_days: 10
+    
+    - id: "crossfire-rss"
+      name: "穿越火线"
+      url: "https://www.bing.com/news/search?q=穿越火线&format=RSS"
+      max_age_days: 10
+    
+    - id: "dnf-rss"
+      name: "地下城与勇士"
+      url: "https://www.bing.com/news/search?q=地下城与勇士&format=RSS"
+      max_age_days: 10
+    
+    - id: "qqspeed-rss"
+      name: "QQ飞车"
+      url: "https://www.bing.com/news/search?q=QQ飞车&format=RSS"
+      max_age_days: 10
+    
+    - id: "codm-rss"
+      name: "使命召唤手游"
+      url: "https://www.bing.com/news/search?q=使命召唤手游&format=RSS"
+      max_age_days: 10
+    
+    - id: "knives-out-rss"
+      name: "荒野行动"
+      url: "https://www.bing.com/news/search?q=荒野行动&format=RSS"
+      max_age_days: 10
+
 
 
 
