@@ -93,16 +93,20 @@ rss:
     - id: "hacker-news"
       name: "Hacker News"
       url: "https://hnrss.org/frontpage"
-      # max_age_days: 1               # 示例：只推送1天内的文章
 
     - id: "ruanyifeng"
       name: "阮一峰的网络日志"
       url: "http://www.ruanyifeng.com/blog/atom.xml"
-      # max_age_days: 7               # 示例：推送7天内的文章（更新较慢的博客）
-    
+
     - id: "yahoo-finance"
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
+
+    - id: "custom-rss"
+      name: "kfc"
+      url: "https://www.bing.com/news/search?q=肯德基&format=RSS"
+      max_age_days: 10
+
 
 
     # 自定义源示例
